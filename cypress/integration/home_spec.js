@@ -1,4 +1,4 @@
-let myApp = 'https://localhost:8444/enroll'
+let myApp = 'https://dev-cardinal.demo.axway.com/enroll'
 describe('The Home Page', function() {
   it('successfully loads', function() {
     cy.visit(myApp)
