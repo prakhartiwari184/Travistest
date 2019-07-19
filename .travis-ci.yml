@@ -1,7 +1,7 @@
 language: ruby  
-node_js:
-  # Node 10.3+ includes npm@6 which has good "npm ci" command
-  - 10.8
+rvm:
+ - 2.2
+ - jruby
 
 # if using Ubuntu 16 need this library
 # https://github.com/cypress-io/cypress-documentation/pull/1647
