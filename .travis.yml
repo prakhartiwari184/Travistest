@@ -24,7 +24,7 @@ defaults: &defaults
     #   ## print all Travis environment variables for debugging
     - bundle exec rake spec
     - npm install cypress
-    - npm run cy:run -- --record --key e1bceeb7-2371-41ab-8443-e6b998d50188 --parallel --group $STAGE_NAME 
+    - npm run cy:run -- --record --key e1bceeb7-2371-41ab-8443-e6b998d50188
     # after all tests finish running we need
     # to kill all background jobs (like "npm start &")
     - kill $(jobs -p) || true
